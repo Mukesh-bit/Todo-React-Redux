@@ -1,0 +1,60 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+
+
+/* ADD TODO CONTAINER */
+.addTodoContainer {
+  margin-top: 3rem;
+}
+
+.addTodo {
+  display: flex;
+  gap: 1rem;
+}
+
+.addTodo input {
+  width: 20rem;
+  padding: 5px;
+  font-size: 1rem;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.addTodo button {
+  width: 5rem;
+  padding: 5px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+
+
+/* TODO lIST cONTAINER */
+.todoListContainer {
+  margin-top: 2rem;
+}
+
+
+.todoListContainer .todoList li {
+  width: 100%;
+  padding: 10px;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  background-color: rgb(173, 170, 170);
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.todoListContainer .todoList button {
+  cursor: pointer;
+}
